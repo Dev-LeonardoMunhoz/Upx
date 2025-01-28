@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-alugar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.alugar-div{
+    border: 1px solid var(--azul-escuro);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+}
+
+.alugar-voltar{
+    position: relative;
+    margin: 1em;  
+    display: flex; 
+}
+
+.voltar-img{
+    transition: 0.6s;
+    width: 40px;
+    margin: 0 5em 0 1em;
+}
+
+.titulo-inicial{
+    text-align: center;
+    font-weight: 550;
+    font-size: 25px;
+}
+
+.alugar-informacoes{
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;     
+}
+
+.alugar-locador{
+    margin: 1em;
+}
+
+.locador-imagem{
+    transition: 0.6s;
+    width: 30px;
+    margin: 1em;
+}
+
+.carro-titulo{
+    font-weight: 700;
+}
+
+.carro-input{
+    outline: none;
+    padding: 10px;
+}
+
+.carro-label{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.carro-informacoes-editar{
+    width: 20%;
+    padding: 6px;
+    background-color: var(--azul-claro);
+    border: none;
+    border-radius: 22px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 1em 1em;
+    transition: 0.6s;
+    box-shadow: 0px 0px 1px 1px var(--azul-claro);
+    font-weight: 500;
+    text-align: center;
+}
+
+.carro-informacoes-editar:hover{
+    background-color: var(--azul);
+    text-decoration: none
+}
+
+.pagamento{
+    width: 100%;
+    
+    padding: 30px;
+    
+}
+
+.pagamento-texto{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: var(--preto);
+    text-align: center;
+}
+
+.pagamento-icones{
+    padding: 0.5em;
+    width: 130px;    
+    margin: auto 7em;
+}
+
+.lista-icones-pg{
+    transition: 0.6s;
+    width: 20px;
+    display: inline-block;
+}
+
+.pagamento-dados{
+    margin-bottom: 20px;
+    
+}
+
+.lista-dados{
+    padding: 0.2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.dados-label{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.dados-input{
+    outline: none;
+    padding: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+}
+
+.dados-botao{
+    width: 100%;
+    padding: 10px;
+    background-color: var(--azul-claro);
+    border: none;
+    border-radius: 22px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 1em 1em;
+    transition: 0.6s;
+    box-shadow: 0px 0px 1px 1px var(--azul-claro);
+    font-weight: 500;
+}
+
+.dados-botao:hover{
+    background-color: var(--azul);
+    text-decoration: none
+}
