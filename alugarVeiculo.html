@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UPX</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html"><img src="img/logoCarshare.png" alt="Logo do CarShare" class="logo"> </a> 
+        <div class="anuncio">
+            <h2 class=""><a href="cadastroVeiculo.html">Anuncie seu Veículo</a></h2>
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn">
+                <img class="menuImg" src="img/menu.png">
+            </button>
+            <div class="dropdown-content">
+              <a href="index.html">Página Inicial</a>
+              <a href="#">Mensagens</a>
+              <a href="#">Notificações</a>
+              <a href="#">Viagens</a>
+              <a href="carrosCadastrados.html">Veículos Cadastrados</a>
+              <a href="perfilUsuario.html">Meu Perfil</a>
+              <a href="login.html">Sair</a>
+            </div>
+        </div>
+
+    </header>
+    <main class="main-alugar">
+        <div class="alugar-div">            
+        <div class="alugar-voltar">
+            <a class="voltar-img" href="index.html"><img src="img/seta.png" alt=""></a>
+            <h1 class="titulo-inicial">Confirmar e pagar</h1>
+        </div>
+        <div class="alugar-informacoes">
+            <div class="alugar-locador">
+                <h2 class="locador-avaliacao">Esse veículo possui boas avaliações.</h2>
+                <span>O veiculo está sempre em boas condições de uso</span>
+            </div>
+            <div class="locador-imagem">
+                <img src="img/carro.png" alt="Bom Locador">
+            </div>
+
+            <div class="alugar-carro">
+                <div class="carro-titulo">
+                    <h2>Sua Viagem</h2>
+                </div>
+
+                <div class="carro-informacoes">
+                    <div class="carro-informacoes-data">
+                        <label class="carro-label" for="dataCarro">Data da Viagem</label>
+                        <input class="carro-input" type="date" name="dataCarro" id="dataCarro" placeholder="Insira a data">
+                    </div>
+                    <div class="carro-informacoes-editar">
+                        <button>Editar</button>
+                        <!-- subir um box deixando o fundo um cadim escuro com um input de data -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- botar um before aqui -->
+        <div class="pagamento">
+            <div class="pagamento-texto">
+                <h2>Pagar com</h2>
+            </div>
+            <div class="pagamento-icones">
+                <ul class="lista-pagamentos">
+                    <li class="lista-icones-pg">
+                        <img src="img/visa.png" alt="Cartão Visa">
+                    </li>
+                    <li class="lista-icones-pg">
+                        <img src="img/Mastercard-logo.png" alt="Mastercard">
+                    </li>
+                    <li class="lista-icones-pg">
+                        <img src="img/Elo.png" alt="Cartão Elo">
+                    </li>
+                </ul>
+            </div>
+            <div class="pagamento-dados">
+                <ul class="lista-pagamentos">
+                    <li class="lista-dados">
+                        <label class="dados-label" for="cartao">Número do Cartão</label>
+                        <input class="dados-input" type="number" name="cartao" id="cartao" placeholder="Número do Cartão" required>
+                    </li>
+                    <li class="lista-dados">
+                        <label class="dados-label" for="validade">Validade</label>
+                        <input class="dados-input" type="month" name="validade" id="validade" placeholder="Validade" required>
+                    </li>
+                    <li class="lista-dados">
+                        <label class="dados-label" for="cvv">CVV</label>
+                        <input class="dados-input" type="number" name="cvv" id="cvv" placeholder="3 dígitos" required>
+                    </li>
+                    <li class="lista-dados">
+                        <label class="dados-label" for="nome-pagamento">Nome</label>
+                        <input class="dados-input" type="text" name="nome-pagamento" id="nome-pagamento" placeholder="Nome" required>
+                    </li>
+                    <li class="lista-dados">
+                        <label class="dados-label" for="sobrenome-pagamento">Sobrenome</label>
+                        <input class="dados-input" type="text" name="sobrenome-pagamento" id="sobrenome-pagamento" placeholder="Sobrenome"
+                            required>
+                    </li>
+                    <li class="lista-dados">
+                        <label class="dados-label" for="cpf-pagamento">CPF</label>
+                        <input class="dados-input" type="number" name="cpf-pagamento" id="cpf-pagamento" placeholder="CPF" required>
+                    </li>
+                    <li class="lista-dados">
+                        <button class="dados-botao" type="submit">Confirmar Pagamento</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer class="rodape">
+        <ul class="rodape-lista">
+            <li class="lista-link">
+                <p class="rodape-texto">® 2024 CarShare.</p>
+            </li>
+            <li class="lista-link">
+                <a href="#">Idioma</a>
+            </li>
+            <li class="lista-link">
+                <a href="#">Termos</a>
+            </li>
+            <li class="lista-link">
+                <a href="#">Privacidade</a>
+            </li>
+            <li class="lista-link">
+                <a href="#">Sobre a empresa</a>
+            </li>
+            <li class="lista-link">
+                <a href="#">Ajuda</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
